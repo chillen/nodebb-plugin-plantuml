@@ -1,0 +1,27 @@
+{
+  "name": "nodebb-plugin-plantuml",
+  "version": "0.1.0",
+  "description": "NodeBB PlantUML Plugin",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connorhillen/nodebb-plugin-plantuml"
+  },
+  "keywords": [
+    "nodebb",
+  "plugin",
+  "uml",
+  "programming",
+  "software",
+  "diagram",
+  "plantuml"
+    ],
+  "author": {
+    "name": "chillen",
+    "email": "connor.hillen@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connorhillen/nodebb-plugin-plantuml/issues"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "nodebb-plugin-plantuml",
+  "name": "NodeBB PlantUML Plugin",
+  "description": "NodeBB Plugin which translates PlantUML code into an embedded PNG.",
+  "url": "https://github.com/connorhillen/nodebb-plugin-plantuml",
+  "library": "./library.js",
+  "hooks": [
+    {
+      "hook": "filter:parse.post", "method": "parse", "priority": 6
+    }
+  ],
+  "css": [
+    "static/style.css"
+  ],
+  "scripts": [
+    "static/lib/rawdeflate.js",
+    "static/lib/plantencode.js"
+  ]
+}
